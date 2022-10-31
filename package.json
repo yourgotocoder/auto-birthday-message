@@ -15,6 +15,7 @@
   "author": "Sudarshan Rai",
   "license": "ISC",
   "dependencies": {
+    "convert-excel-to-json": "^1.7.0",
     "json2xls": "^0.1.2",
     "nodejs-nodemailer-outlook": "^1.2.4",
     "simple-excel-to-json": "^2.3.0"
