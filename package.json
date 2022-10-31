@@ -1,0 +1,22 @@
+{
+  "name": "aut-birthday-message",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "cronjob",
+    "autoemail",
+    "birthday message"
+  ],
+  "author": "Sudarshan Rai",
+  "license": "ISC",
+  "dependencies": {
+    "json2xls": "^0.1.2",
+    "nodejs-nodemailer-outlook": "^1.2.4",
+    "simple-excel-to-json": "^2.3.0"
+  }
+}
