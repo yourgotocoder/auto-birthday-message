@@ -16,7 +16,7 @@ const sendMail = (config) => {
     text: "Happy Birthday",
     replyTo: "noreply@mail.com",
     onError: (e) => emailLogger("error", e),
-    onSuccess: (i) => console.log(i),
+    onSuccess: (successData) => emailLogger("success", successData),
   });
 };
 
