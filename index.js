@@ -1,4 +1,3 @@
-const cron = require("node-cron");
 const mailer = require("./helpers/sendMail");
 const alumniData = require("./resources/CSE_Alumni.json");
 

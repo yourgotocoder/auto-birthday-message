@@ -19,8 +19,6 @@
     "dotenv": "^16.0.3",
     "json2xls": "^0.1.2",
     "moment": "^2.29.4",
-    "node-cron": "^3.0.2",
-    "nodejs-nodemailer-outlook": "^1.2.4",
-    "simple-excel-to-json": "^2.3.0"
+    "nodejs-nodemailer-outlook": "^1.2.4"
   }
 }

@@ -3,6 +3,7 @@ const emailLogger = require("./emailLogger");
 const numberToWordsMap = require("./numberToWordsMap");
 
 const sendMail = (config) => {
+  console.log(config);
   const currentAge =
     new Date().getFullYear() - new Date(config.DateOfBirth).getFullYear();
   const htmlContent = ``;
