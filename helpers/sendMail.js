@@ -1,6 +1,8 @@
 const outlook = require("nodejs-nodemailer-outlook");
 const emailLogger = require("./emailLogger");
 const numberToWordsMap = require("./numberToWordsMap");
+const birthdayMessages = require("./birthdayMessages")
+const birthdayMessageGenerator = require("./birthdayMessageGenerator");
 
 const sendMail = (config) => {
   console.log(config);
