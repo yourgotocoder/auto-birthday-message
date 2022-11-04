@@ -16,11 +16,23 @@ const alumniWithBirthdayToday = alumniData.filter((alumni) => {
   } else return false;
 });
 
-for (let index = 0; index < alumniWithBirthdayToday.length; index++) {
-  setTimeout(() => {    
-    mailer({...alumniWithBirthdayToday[index]})
-  }, 2100 * (index + 1));
-}
+// console.log(alumniWithBirthdayToday);
+
+mailer({
+  Salutation: "",
+  Name: "SUDARSHAN RAI",
+  Gender: "M",
+  DateOfBirth: "Wed Nov 04 1998 23:59:50 GMT+0530 (India Standard Time)",
+  BTech: "B.Tech. 2021, CSE",
+  MTech: "",
+  EmailId: "sudarshan.r@smit.smu.edu.in",
+});
+
+// for (let index = 0; index < alumniWithBirthdayToday.length; index++) {
+//   setTimeout(() => {
+//     mailer({...alumniWithBirthdayToday[index]})
+//   }, 2100 * (index + 1));
+// }
 
 // const task = cron.schedule("*/5 * * * * *", () => {
 // });
